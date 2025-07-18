@@ -1,15 +1,15 @@
 // Setup
-@import "setup/variables";
-@import "setup/mixins";
-@import "setup/typography";
-@import "setup/helpers";
+@use "setup/variables";
+@use "setup/mixins";
+@use "setup/typography";
+@use "setup/helpers";
 
 // Components
-@import "components/header";
-@import "components/footer";
+@use "components/header";
+@use "components/footer";
 
 // Layout
-@import "layout/body";
-@import "layout/main";
-@import "layout/wrap";
-@import "layout/block";
+@use "layout/body";
+@use "layout/main";
+@use "layout/wrap";
+@use "layout/block";
