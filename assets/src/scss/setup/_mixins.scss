@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 // Width function
 @function p($target, $container) {
     @return calc($target / $container) * 100%;
